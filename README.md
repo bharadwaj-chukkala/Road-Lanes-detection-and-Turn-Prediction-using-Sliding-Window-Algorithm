@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 # Road Lanes Detection and Turn Prediction using Sliding Window Algorithm
 
 This project is a student level project for the course "Perception for Autonomous Robots". It is an implementation of various concepts such as gaussian blurring, image warping, sliding window, and edge detection using the libraries opencv and numpy applied to a real time problem, to detect road lanes and predict upcoming turns.
@@ -62,7 +63,11 @@ To run this project, you will need to install all/some of the following:
 
 ### Lane Detection
 
-<p float="left">
+#### Pipeline
+
+Input-> Blurring-> Edge Detect-> Select ROI-> Hough Transform-> Image Warpi-> Output
+
+<p float="center">
   <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
   <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg"> 
   <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
@@ -70,14 +75,16 @@ To run this project, you will need to install all/some of the following:
 
 </p>
 
+<p float = center>
+<img width="400" height="250" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/final_output.jpg">
+<img width="400" height="250" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/flipped_output.jpg">
 
+The implementation is robust to detect dashed lines and continuous lines even after flipping the frame
+</p>
 
+### Turn Prediction
 
-
-Fig 1: Edge Detection
-
-<img width="300" height="150" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
-
+#### Pipeline
 
 
 
