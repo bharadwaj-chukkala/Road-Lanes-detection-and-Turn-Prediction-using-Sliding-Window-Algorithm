@@ -63,14 +63,16 @@ To run this project, you will need to install all/some of the following:
 ### Lane Detection
 
 <p float="left">
-  <img width="200" height="100" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
-  <img width="200" height="100" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg"> 
-  <img width="200" height="100" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
+  <img width="210" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+  <img width="210" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg"> 
+  <img width="210" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
+  <img width="210" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/warped_image.jpg">
+
 </p>
 
 <div class="row">
   <div class="column">
-    <img width="200" height="100" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+    <img width="230" height="180" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
   </div>
   <div class="column">
     <img width="200" height="100" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg">
