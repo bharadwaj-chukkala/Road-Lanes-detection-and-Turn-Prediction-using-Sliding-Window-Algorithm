@@ -63,7 +63,8 @@ To run this project, you will need to install all/some of the following:
 
 ### Lane Detection
 
-#### Pipeline 
+#### Pipeline
+
 <p align="center">
 Input-> Blurring-> Edge Detect-> Select ROI-> Hough Transform-> Warp Image-> Output
 </p>
@@ -81,13 +82,18 @@ Input-> Blurring-> Edge Detect-> Select ROI-> Hough Transform-> Warp Image-> Out
 <img width="400" height="250" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/flipped_output.jpg">
 
 The implementation is robust to detect dashed lines and continuous lines even after flipping the frame
+
 </p>
 
 #### [Implementation Video](https://drive.google.com/file/d/1w0FOE-IxsekpfeXzTsYRanOOGXzWhBss/view?usp=share_link)
 
+---
+
+
+
 ### Turn Prediction
 
-#### Pipeline 
+#### Pipeline
 
 <p align="center">
 Binary Thresholding-> Contour Detect-> Select ROI-> Warp Image-> Sliding Window-> Predict Turn
@@ -104,12 +110,11 @@ Binary Thresholding-> Contour Detect-> Select ROI-> Warp Image-> Sliding Window-
 <p float="center">
 <img width="600" height="350" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/result.jpg">
 
-
 The implementation is robust to detect the road and predict upcoming turns.
+
 </p>
 
 #### [Implementation Video](https://drive.google.com/file/d/1Omi_HhCTYhFJFJfpnWnjg127E3jF_7Iy/view?usp=share_link)
-
 
 ## License
 
