@@ -61,8 +61,27 @@ To run this project, you will need to install all/some of the following:
 
 ### Lane Detection
 
-<p>
-<img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+<div class="row">
+  <div class="column">
+    <img width="300" height="150" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+  </div>
+  <div class="column">
+    <img width="300" height="150" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg">
+  </div>
+  <div class="column">
+    <img width="300" height="150" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
+  </div>
+</div>
+
+
+
+Fig 1: Edge Detection
+
+<img width="300" height="150" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
