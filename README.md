@@ -2,7 +2,7 @@
 
 # Road Lanes Detection and Turn Prediction using Sliding Window Algorithm
 
-This project is a student level project for the course "Perception for Autonomous Robots". It is an implementation of various concepts such as gaussian blurring, image warping, sliding window, and edge detection using the libraries opencv and numpy applied to a real time problem, to detect road lanes and predict upcoming turns.
+A student level project for the course "Perception for Autonomous Robots". It is an implementation of various concepts such as gaussian blurring, image warping, sliding window, and edge detection using the libraries opencv and numpy applied to a real time problem, to detect road lanes and predict upcoming turns.
 
 ## Project Description
 
