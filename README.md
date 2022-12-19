@@ -59,6 +59,10 @@ To run this project, you will need to install all/some of the following:
 
 ## Results
 
+### Lane Detection
+
+<p>
+<img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
