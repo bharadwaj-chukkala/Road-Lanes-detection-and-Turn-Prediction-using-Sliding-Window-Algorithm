@@ -63,30 +63,52 @@ To run this project, you will need to install all/some of the following:
 
 ### Lane Detection
 
-#### Pipeline
-
-Input-> Blurring-> Edge Detect-> Select ROI-> Hough Transform-> Image Warpi-> Output
+#### <b> Pipeline </b>
+<p align="center">
+Input-> Blurring-> Edge Detect-> Select ROI-> Hough Transform-> Warp Image-> Output
+</p>
 
 <p float="center">
-  <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
-  <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg"> 
-  <img width="220" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/edge_image.jpg">
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/masked_image.jpg"> 
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/hough_image.jpg">
   <img width="100" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/warped_image.jpg">
 
 </p>
 
-<p float = center>
+<p float="center">
 <img width="400" height="250" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/final_output.jpg">
 <img width="400" height="250" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%202/flipped_output.jpg">
 
 The implementation is robust to detect dashed lines and continuous lines even after flipping the frame
 </p>
 
+#### <b> Implementation Video </b>
+
 ### Turn Prediction
 
-#### Pipeline
+#### <b> Pipeline </b>
+
+<p align="center">
+Binary Thresholding-> Contour Detect-> Select ROI-> Warp Image-> Sliding Window-> Predict Turn
+</p>
+
+<p float="center">
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/saturated_image.jpg">
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/contour_detection.jpg"> 
+  <img width="230" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/masked_image.jpg">
+  <img width="100" height="140" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/turn_prediction.jpg">
+
+</p>
+
+<p float="center">
+<img width="600" height="350" src="https://github.com/bharadwaj-chukkala/Road-Lanes-detection-and-Turn-Prediction-using-Sliding-Window-Algorithm/blob/master/outputs%20prob%203/result.jpg>
 
 
+The implementation is robust to detect the road and predict upcoming turns.
+</p>
+
+#### <b> Implementation Video </b>
 
 ## License
 
